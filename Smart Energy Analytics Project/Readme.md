@@ -14,9 +14,10 @@ The unpivoted dataset contains over 1.1 million energy consumption records from 
 
 ## Analytics Procedure:
 Data cleaning and transformation were performed using Power Query in Power BI.
+
 The entire user-centric BI report was built in Power BI, with the background designed in Figma.
 
-Interactive featuressuch as navigation, a dynamic filter pane, and color-coded KPI indicators enhance user experience.
+Interactive features such as navigation, a dynamic filter pane, and color-coded KPI indicators enhance user experience.
 An additional feature used was Power BI's built-in forecasting, which predicts total energy consumption based on available data.
 
 ## Key Insights:
