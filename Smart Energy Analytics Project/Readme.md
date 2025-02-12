@@ -19,7 +19,7 @@ Interactive featuressuch as navigation, a dynamic filter pane, and color-coded K
 An additional feature used was Power BI's built-in forecasting, which predicts total energy consumption based on available data.
 
 ## Key Insights:
-1. Grid imports accounted for 88.81%** of total energy consumption.
+1. Grid imports accounted for 88.81% of total energy consumption.
 2. Solar generation contributed to a 433.19M kg CO₂ reduction over the study period.
 3. Solar generation declined significantly in 2019.
 4. Forecasted total energy consumption for 2024: ~867.75M kWh.
