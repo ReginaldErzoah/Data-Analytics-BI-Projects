@@ -6,6 +6,7 @@ The Smart Energy Analytics BI project analyzes energy consumption trends across 
 
 ## Data Source:
 Open Power System Data, KN, Germany (2015-2019)
+https://data.open-power-system-data.org/household_data/
 
 Three datasets were recorded by the source at 1-minute, 15-minute, and 60-minute intervals.
 The dataset used for this project was recorded at 60-minute intervals.
