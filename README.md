@@ -2,3 +2,4 @@ This repository is dedicated to Data Analytics & Business Intelligence related p
 
 Below is a log of projects so far:
 1. Smart Energy Analytics Project.
+2. Supply Chain Performance Analytics Project.
