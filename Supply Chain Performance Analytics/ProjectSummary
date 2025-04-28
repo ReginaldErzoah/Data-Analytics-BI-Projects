@@ -1,0 +1,32 @@
+# Supply Chain Performance Analytics Project Summary
+
+## Project Objective:
+Evaluate the performance of a supply chain company.
+To better identify the areas that needs attention and improvement.
+
+## Data Source:
+DataCo Smart Supply Chain Dataset from Kaggle.
+https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
+
+
+## Analytics Procedure:
+Data cleaning and transformation were performed using Power Query in Power BI.
+
+The entire user-centric BI report was built in Power BI, with the background designed in Figma.
+
+Interactive features such as navigation, a dynamic filter pane, and color-coded KPI indicators enhance user experience.
+An additional feature used was Power BI's built-in forecasting, which predicts total energy consumption based on available data.
+
+## Key Insights:
+1. Total profit amounted to $4m with total orders of 64k.
+2. On-time deliveries percentage was 17.84%
+3. Late delivery was the most occurring delivery status.
+4. Repeat customer percentage was 60.12%
+
+
+## Next Steps:
+1. Work on connecting the BI to a database for real-time analysis.
+2. Consider forecasting visuals for better decision making.
+
+
+For more details, download the BI file and other data resources located in project folder.
