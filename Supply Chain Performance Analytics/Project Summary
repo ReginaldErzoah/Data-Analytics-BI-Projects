@@ -14,7 +14,7 @@ Data cleaning and transformation were performed using Power Query in Power BI.
 
 The entire user-centric BI report was built in Power BI, with the background designed in Figma.
 
-Interactive features such as navigation, a dynamic filter pane, and color-coded KPI indicators enhance user experience.
+Interactive features such as navigation and a dynamic filter pane to enhance user experience.
 An additional feature used was Power BI's built-in forecasting, which predicts total energy consumption based on available data.
 
 ## Key Insights:
@@ -27,6 +27,5 @@ An additional feature used was Power BI's built-in forecasting, which predicts t
 ## Next Steps:
 1. Work on connecting the BI to a database for real-time analysis.
 2. Consider forecasting visuals for better decision making.
-
 
 For more details, download the BI file and other data resources located in project folder.
