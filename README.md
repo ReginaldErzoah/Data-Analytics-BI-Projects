@@ -3,4 +3,4 @@ This repository is dedicated to Data Analytics & Business Intelligence related p
 Below is a log of projects so far:
 1. Personal Fitness Analytics.
 2. Supply Chain Performance Analytics.
-3. Smart Energy Analytics Project.
+3. Smart Energy Analytics.
