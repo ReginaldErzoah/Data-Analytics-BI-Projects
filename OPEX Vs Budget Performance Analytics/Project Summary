@@ -10,7 +10,7 @@ https://www.kaggle.com/datasets/saharsyed/financial-dataset-expenses-budget-vs-a
 
 
 ## Analytics Procedure:
-DData cleaning and transformation were done using Power Query in Power BI.
+Data cleaning and transformation were done using Power Query in Power BI.
 
 The full interactive dashboard was developed in Power BI, with the background design built in Figma.
 
