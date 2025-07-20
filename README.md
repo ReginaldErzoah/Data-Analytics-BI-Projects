@@ -2,7 +2,7 @@ This repository is dedicated to Data Analytics & Business Intelligence related p
 
 Below is a log of projects so far:
 
-1.OPEX Vs Budget Performance Analytics
+1. OPEX Vs Budget Performance Analytics
 
 2. Financial Planning & Analysis
 
