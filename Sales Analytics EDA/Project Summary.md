@@ -1,4 +1,4 @@
-# Sales Analytics EDA Project Summary
+# Retail Sales Analytics (EDA Project) Summary
 
 ## Project Objectives:
 This is an Exploratory Data Analysis (EDA) that explores sales performance of a retail store.
