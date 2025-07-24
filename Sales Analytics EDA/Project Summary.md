@@ -5,7 +5,7 @@ This is an Exploratory Data Analysis (EDA) that explores sales performance of a 
 
 ## Data Source: 
 Superstore Dataset from Kaggle. 
-![Link](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+[Link](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 
 ## Tools & Libraries: 
 Python, Pandas, Matplotlib, Seaborn, Plotly, VS Code.
