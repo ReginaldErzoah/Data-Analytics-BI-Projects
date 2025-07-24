@@ -3,7 +3,8 @@
 ## Project Objectives:
 This is an Exploratory Data Analysis (EDA) that explores sales performance of a retail store.
 
-## Data Source: Superstore Dataset from Kaggle. 
+## Data Source: 
+Superstore Dataset from Kaggle. 
 ![Link](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 
 ## Tools & Libraries: 
@@ -20,5 +21,5 @@ Python, Pandas, Matplotlib, Seaborn, Plotly, VS Code.
 
 ## Recommendation & Next Steps: 
 - Investigate the reason why not all high sales contribute to high profit.
-This might be a result pf high discounts.
+This might be a result of high discounts.
 - Consider creating an interactive dashboard using Plotly Dash later.
