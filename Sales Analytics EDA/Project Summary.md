@@ -15,7 +15,8 @@ Python, Pandas, Matplotlib, Seaborn, Plotly, VS Code.
 - Visualizations created for Regional and products profitability analysis, Month Sales vs Profit trend analysis, Sales distribution per Category analysis and an interactive scatter plot of Sales vs Profit.
 
 ## Key Insights:
-- East & West were the most profitable regions.
+- West & East were the most profitable regions.
+- Canon image CLASS 2200 Advanced Copier was the most profitable product.
 - Technology is the most profitable category.
 - Not all high sales contribute to high profit.
 
