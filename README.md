@@ -2,12 +2,14 @@ This repository is dedicated to Data Analytics & Business Intelligence related p
 
 Below is a log of projects so far:
 
-1. OPEX Vs Budget Performance Analytics
+1. OPEX Vs Budget Performance Analytics.
 
-2. Financial Planning & Analysis
+2. Financial Planning & Analysis.
+   
+3. Retail Sales Analytics (EDA).
 
-3. Personal Fitness Analytics.
+4. Personal Fitness Analytics.
 
-4. Supply Chain Performance Analytics.
+5. Supply Chain Performance Analytics.
 
-5. Smart Energy Analytics.
+6. Smart Energy Analytics.
