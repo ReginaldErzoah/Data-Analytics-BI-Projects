@@ -28,3 +28,4 @@ Key financial metrics were calculated using DAX: variance, variance %, cumulativ
 2. Add advanced forecasting visuals for better financial planning.
 
 Explore the report and files in the project folder to see the full BI solution.
+<img width="690" height="393" alt="opex" src="https://github.com/user-attachments/assets/1e5922ff-9fde-4845-a3c7-ca1b01f1455e" />
