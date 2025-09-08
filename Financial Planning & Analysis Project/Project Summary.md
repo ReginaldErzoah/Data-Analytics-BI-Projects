@@ -22,7 +22,7 @@ A What-If Budget Adjustment Slicer was included to simulate ±10% budget changes
 3. Scenario simulation suggests a 2% increase in budget would result in GHS 614,479 underspend, indicating potential for reallocation rather than expansion.
 
 ## Next Steps:
-1. Automate monthly refreshes using Google Sheets → Power BI pipeline.
+1. Automate monthly refreshes using Google Sheets --> Power BI pipeline.
 2. Incorporate performance-based scoring for departments based on budget discipline.
 
 Explore the report and files in the project folder to see the full BI solution.
