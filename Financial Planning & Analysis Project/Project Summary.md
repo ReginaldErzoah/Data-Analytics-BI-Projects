@@ -26,3 +26,4 @@ A What-If Budget Adjustment Slicer was included to simulate ±10% budget changes
 2. Incorporate performance-based scoring for departments based on budget discipline.
 
 Explore the report and files in the project folder to see the full BI solution.
+<img width="587" height="329" alt="Finance" src="https://github.com/user-attachments/assets/900d9502-e1fe-4c0c-b7fa-1c4e4dfb8fd7" />
