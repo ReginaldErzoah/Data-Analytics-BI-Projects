@@ -8,8 +8,8 @@ def plot_error_by_payment(df):
     sns.barplot(x=error_by_payment.values, y=error_by_payment.index, palette="coolwarm", ax=ax)
     ax.set_title("Error Rate by Payment Method")
     ax.set_xlabel("Error Rate (%)")
-    st.pyplot(fig)
-    plt.close(fig)  
+    st.pyplot(fig, clear_figure=True)
+    plt.close(fig)
 
 def plot_error_by_location(df):
     error_by_location = df.groupby("Location")["has_error"].mean() * 100
@@ -17,15 +17,20 @@ def plot_error_by_location(df):
     sns.barplot(x=error_by_location.values, y=error_by_location.index, palette="coolwarm", ax=ax)
     ax.set_title("Error Rate by Location")
     ax.set_xlabel("Error Rate (%)")
-    st.pyplot(fig)
+    st.pyplot(fig, clear_figure=True)
     plt.close(fig)
 
 def plot_error_heatmap(df):
-    error_pivot = df.pivot_table(values="has_error", index="Location", columns="Payment Method", aggfunc="mean") * 100
+    error_pivot = df.pivot_table(
+        values="has_error", 
+        index="Location", 
+        columns="Payment Method", 
+        aggfunc="mean"
+    ) * 100
     fig, ax = plt.subplots(figsize=(7,5))
     sns.heatmap(error_pivot, annot=True, fmt=".1f", cmap="Reds", ax=ax)
     ax.set_title("Error Clusters by Location × Payment Method")
-    st.pyplot(fig)
+    st.pyplot(fig, clear_figure=True)
     plt.close(fig)
 
 def plot_error_trend(df):
@@ -36,5 +41,5 @@ def plot_error_trend(df):
     ax.set_title("Error Rate Over Time")
     ax.set_xlabel("Month")
     ax.set_ylabel("Error Rate (%)")
-    st.pyplot(fig)
+    st.pyplot(fig, clear_figure=True)
     plt.close(fig)
