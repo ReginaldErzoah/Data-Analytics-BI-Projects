@@ -54,24 +54,17 @@ with st.expander("View Data Quality Summary Table"):
 
 # --- Charts ---
 st.subheader("Error Rate by Payment Method")
-fig = plot_error_by_payment(filtered_df)
-st.pyplot(fig, clear_figure=True)
-plt.close(fig)
+plot_error_by_payment(filtered_df)
 
 st.subheader("Error Rate by Location")
-fig = plot_error_by_location(filtered_df)
-st.pyplot(fig, clear_figure=True)
-plt.close(fig)
+plot_error_by_location(filtered_df)
 
 st.subheader("Error Cluster Heatmap (Location × Payment Method)")
-fig = plot_error_heatmap(filtered_df)
-st.pyplot(fig, clear_figure=True)
-plt.close(fig)
+plot_error_heatmap(filtered_df)
 
 st.subheader("Error Rate Over Time")
-fig = plot_error_trend(filtered_df)
-st.pyplot(fig, clear_figure=True)
-plt.close(fig)
+plot_error_trend(filtered_df)
+
 
 # --- Download Buttons ---
 st.divider()
@@ -83,3 +76,4 @@ st.download_button("Download Filtered Data (CSV)", csv_all, "filtered_cafe_sales
 error_data = filtered_df[filtered_df["has_error"]]
 csv_errors = error_data.to_csv(index=False).encode("utf-8")
 st.download_button("Download Only Error Records (CSV)", csv_errors, "error_records.csv", "text/csv")
+
