@@ -41,7 +41,7 @@ This project is ideal for:
 ---
 
 ## Dataset
-The sample dataset used in this project is `dirty_cafe_sales.csv` (in project folder), a dataset containing:
+The sample dataset used in this project is `dirty_cafe_sales.csv` (in project folder), a transactional dataset containing:
 - Transaction Date  
 - Location  
 - Payment Method  
