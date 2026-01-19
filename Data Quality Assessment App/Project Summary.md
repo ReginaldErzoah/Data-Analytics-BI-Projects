@@ -7,6 +7,8 @@ This is the first version and updates will be done regularly.
 
 For a live demo, check the streamlit app Here: [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://data-quality-assess.streamlit.app/)
 
+If the app is waking up after you open it, please wait 1–2 minutes.
+
 The project also demonstrates the use of:
 - Python for data preprocessing  
 - Pandas & NumPy for quality checks  
