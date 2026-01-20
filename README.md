@@ -2,7 +2,7 @@ This repository is dedicated to Data Analytics & Business Intelligence related p
 
 Below is a log of projects so far:
 
-1. Data Quaality Assessment Project
+1. Data Quality Assessment App.
 2. OPEX Vs Budget Performance Analytics.
 3. Financial Planning & Analysis.
 4. Personal Fitness Analytics.
