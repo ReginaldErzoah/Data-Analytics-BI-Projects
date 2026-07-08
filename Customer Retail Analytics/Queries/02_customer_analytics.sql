@@ -9,7 +9,7 @@
 
 SELECT
 Country,
-COUNT(DISTINCT CustomerID) AS Number_of_Customers
+COUNT(DISTINCT customer_id) AS Number_of_Customers
 FROM RetailTransactions
-GROUP BY Country
+GROUP BY country
 ORDER BY Number_of_Customers DESC;
