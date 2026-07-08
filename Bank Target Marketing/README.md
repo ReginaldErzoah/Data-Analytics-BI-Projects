@@ -1,4 +1,4 @@
-# Bank Marketing Campaign Analysis Using SQL & Power BI
+# Bank Marketing Campaign Analysis
 
 ## Project Overview
 
