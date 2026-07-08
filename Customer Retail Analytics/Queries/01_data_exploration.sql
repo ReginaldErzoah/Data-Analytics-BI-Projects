@@ -1,5 +1,4 @@
 /*
-Customer 360 Retail Analytics
 01 - Data Exploration
 ==========================================================
 
@@ -26,35 +25,35 @@ FROM RetailTransactions;
 /* 03 - Dataset Time Period */
 
 SELECT
-MIN(InvoiceDate) AS First_Transaction_Date,
-MAX(InvoiceDate) AS Last_Transaction_Date
+MIN(invoicedate) AS First_Transaction_Date,
+MAX(invoicedate) AS Last_Transaction_Date
 FROM RetailTransactions;
 
 
 /* 04 - Total Unique Customers */
 
 SELECT
-COUNT(DISTINCT CustomerID) AS Total_Customers
+COUNT(DISTINCT customer_id) AS Total_Customers
 FROM RetailTransactions;
 
 
 /* 05 - Total Unique Products */
 
 SELECT
-COUNT(DISTINCT StockCode) AS Total_Products
+COUNT(DISTINCT stockcode) AS Total_Products
 FROM RetailTransactions;
 
 
 /* 06 - Total Countries */
 
 SELECT
-COUNT(DISTINCT Country) AS Total_Countries
+COUNT(DISTINCT country) AS Total_Countries
 FROM RetailTransactions;
 
 
 /* 07 - Countries Represented */
 
 SELECT DISTINCT
-Country
+country
 FROM RetailTransactions
-ORDER BY Country;
+ORDER BY country;
