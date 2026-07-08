@@ -1,6 +1,6 @@
 # Customer Retail Analytics
 
-![Dashboard Preview](images/customer_dashboard.png)
+![Dashboard Preview](Images/customer_dashboard.png)
 
 ## Project Overview
 
