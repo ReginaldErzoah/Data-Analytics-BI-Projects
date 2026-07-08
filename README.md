@@ -8,3 +8,7 @@ Below is a log of projects so far:
 4. Personal Fitness Analytics.
 5. Supply Chain Performance Analytics.
 6. Smart Energy Analytics.
+7. Bank Target Marketing Analytics.
+8. Customer Analytics.
+9. Employee Workforce Analytics.
+   
