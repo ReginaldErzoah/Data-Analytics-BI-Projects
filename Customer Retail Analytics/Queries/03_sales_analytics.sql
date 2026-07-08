@@ -7,7 +7,7 @@
 /* Transactions by Year */
 
 SELECT
-strftime('%Y', InvoiceDate) AS Sales_Year,
+strftime('%Y', invoicedate) AS Sales_Year,
 COUNT(*) AS Number_of_Transactions
 FROM RetailTransactions
 GROUP BY Sales_Year
@@ -17,7 +17,7 @@ ORDER BY Sales_Year;
 /* Total Quantity Sold */
 
 SELECT
-SUM(Quantity) AS Total_Items_Sold
+SUM(quantity) AS Total_Items_Sold
 FROM RetailTransactions;
 
 
