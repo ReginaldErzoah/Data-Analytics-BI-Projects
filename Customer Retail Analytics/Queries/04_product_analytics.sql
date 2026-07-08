@@ -7,13 +7,13 @@
 /* Top 10 Products by Quantity Sold */
 
 SELECT
-StockCode,
-Description,
-SUM(Quantity) AS Total_Quantity_Sold
+stockcode,
+description,
+SUM(quantity) AS Total_Quantity_Sold
 FROM RetailTransactions
 GROUP BY
-StockCode,
-Description
+stockcode,
+description
 ORDER BY Total_Quantity_Sold DESC
 LIMIT 10;
 
@@ -21,12 +21,12 @@ LIMIT 10;
 /* Top 10 Products by Revenue */
 
 SELECT
-StockCode,
-Description,
-ROUND(SUM(Quantity * Price),2) AS Revenue
+stockcode,
+description,
+ROUND(SUM(quantity * Price),2) AS Revenue
 FROM RetailTransactions
 GROUP BY
-StockCode,
-Description
+stockcode,
+description
 ORDER BY Revenue DESC
 LIMIT 10;
